@@ -1,28 +1,26 @@
-var wakeDog = function(dogName, dogBreed){
-  action = `Wake ${dogName} the ${dogBreed}`;
-  console.log(action);
-  return action
-};
+function wakeDog(dogName, dogBreed){
+  console.log(`Wake ${dogName} the ${dogBreed}`);
+}
 
-var leashDog = function(dogName, dogBreed){
+function leashDog(dogName, dogBreed){
   console.log(`Leash ${dogName} the ${dogBreed}`);
-};
+}
 
-var walkToPark = function(dogName, dogBreed){
+function walkToPark(dogName, dogBreed){
   console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
-};
+}
 
-var throwFrisbee = function(dogName, dogBreed){
+function throwFrisbee(dogName, dogBreed){
   console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
-};
+}
 
-var walkHome = function(dogName, dogBreed){
+function walkHome(dogName, dogBreed){
   console.log(`Walk home with ${dogName} the ${dogBreed}`);
-};
+}
 
-var unleashDog = function(dogName, dogBreed){
+function unleashDog(dogName, dogBreed){
   console.log(`Unleash ${dogName} the ${dogBreed}`);
-};
+}
 
 let routine = [
   wakeDog,
